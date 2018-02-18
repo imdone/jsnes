@@ -11,7 +11,7 @@ var NES = function(opts) {
     onStatusUpdate: function() {},
     onBatteryRamWrite: function() {},
 
-    // FIXME: not actually used except for in PAPU
+    // FIXME: not actually used except for in PAPU id:1 gh:2 ic:gh
     preferredFrameRate: 60,
 
     emulateSound: true,

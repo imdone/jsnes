@@ -903,7 +903,7 @@ Mappers[4].prototype.write = function(address, value) {
 
     case 0xa001:
       // SaveRAM Toggle
-      // TODO
+      // TODO id:0 gh:1 ic:gh
       //nes.getRom().setSaveState((value&1)!=0);
       break;
 

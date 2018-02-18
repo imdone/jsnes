@@ -151,7 +151,7 @@ PPU.prototype = {
 
     // These are temporary variables used in rendering and sound procedures.
     // Their states outside of those procedures can be ignored.
-    // TODO: the use of this is a bit weird, investigate
+    // TODO: the use of this is a bit weird, investigate id:2 gh:3 ic:gh
     this.curNt = null;
 
     // Variables used when rendering:
