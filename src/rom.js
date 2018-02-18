@@ -90,7 +90,7 @@ ROM.prototype = {
     this.trainer = (this.header[6] & 4) !== 0;
     this.fourScreen = (this.header[6] & 8) !== 0;
     this.mapperType = (this.header[6] >> 4) | (this.header[7] & 0xf0);
-    /* TODO
+    /* TODO id:3 gh:4 ic:gh
         if (this.batteryRam)
             this.loadBatteryRam();*/
     // Check whether byte 8-15 are zero's:
